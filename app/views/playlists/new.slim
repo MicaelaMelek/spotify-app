@@ -1,0 +1,5 @@
+= form_tag playlists_path, method: :post do |f|
+  div.field
+    = text_field_tag :name
+  div.actions
+    = submit_tag :create
